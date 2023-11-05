@@ -1,0 +1,61 @@
+Building a Blogging Platform - Part 2 (Optional)
+
+Objective: To complete the blogging platform.
+
+Task:
+
+In this optional project, you will continue the development of the blogging platform that you started in Assignment 4, Part 1. In Part 2, you will focus on building a user-friendly interface for creating, publishing, listing, and viewing blog articles.
+
+Instructions:
+
+Article Creation:
+
+Create a user interface for writing and editing blog articles. Include fields for the article's title, content, and any other relevant information.
+Implement a rich text editor or a Markdown editor to allow users to format their articles.
+Ensure that articles can be saved as drafts or published.
+Article Listing:
+
+Design a page that lists all published articles, displaying their titles and publication dates.
+Implement pagination or load more functionality if there are a large number of articles.
+Article Viewing:
+
+Create individual pages for viewing full blog articles when clicked from the list.
+Add a comments section where users can leave comments on each article.
+User Dashboard:
+
+Develop a user dashboard where authors can see their published articles, drafts, and comments received on their articles.
+Testing:
+
+Thoroughly test the article creation, listing, viewing, and commenting features.
+Ensure that articles are displayed correctly, and comments are associated with the correct articles.
+Submission:
+
+Submit the following for this optional assignment:
+
+PHP files and scripts for article creation, listing, viewing, and commenting.
+A brief document or email confirming the successful completion of Part 2.
+Example Submission (partial):
+
+Assignment5-BloggingPlatform-Part2-Submission.zip:
+
+article_creation.php (article creation and editing functionality)
+article_listing.php (listing published articles)
+article_view.php (viewing individual articles with comments)
+user_dashboard.php (user dashboard for authors)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 5: Building a Blogging Platform - Part 2 (Optional)
+
+- I have implemented article creation, listing, viewing, and commenting features.
+- A user dashboard is created to manage published articles and drafts.
+
+[Attach PHP files]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful implementation of article creation, listing, viewing, and commenting features.
+Effective user dashboard for managing articles and drafts.
+Thorough testing to ensure correct functionality and user-friendliness.

@@ -1,0 +1,73 @@
+Setting Up Your PHP Development Environment
+
+Objective: To set up a PHP development environment.
+
+Task:
+
+In this assignment, you will learn how to set up a local PHP development environment on your computer. A working development environment is essential for PHP programming and web development. Follow the steps below to complete the assignment:
+
+Instructions:
+
+Choose a Development Environment:
+
+Select a PHP development environment that suits your operating system. Two popular options are XAMPP (for Windows, macOS, and Linux) and WAMP (for Windows).
+Install the Development Environment:
+
+Download the installation package for your chosen environment from the official website.
+Follow the installation instructions provided for your platform.
+During installation, select the components you want to install, which typically include PHP, Apache (web server), and MySQL (database server).
+Verify Installation:
+
+After installation, launch your PHP development environment.
+Open a web browser and enter the URL http://localhost/ or http://127.0.0.1/.
+If the installation was successful, you should see a page confirming that your web server is running.
+Create a "Hello, World!" PHP Script:
+
+Using a text editor (e.g., Notepad on Windows or any code editor you prefer), create a simple PHP script that displays "Hello, World!" on a web page.
+Save the PHP script with a .php file extension (e.g., hello.php) in the appropriate directory (usually named "htdocs" in your development environment).
+View Your PHP Page:
+
+Open a web browser and enter the URL http://localhost/hello.php (or the path where you saved your PHP script).
+You should see "Hello, World!" displayed in your browser.
+Submission:
+
+Submit a brief report (in a text document or email) confirming the successful setup of your PHP development environment. Mention the environment you chose (XAMPP or WAMP) and attach a screenshot of your web browser displaying the "Hello, World!" message.
+
+Example Submission (partial):
+
+Report (report.txt):
+
+
+Assignment 1: Setting Up Your PHP Development Environment
+
+I chose to set up the XAMPP development environment on my Windows 10 computer.
+
+- I downloaded the XAMPP installer from the official website and followed the installation instructions.
+- After installation, I launched XAMPP and confirmed that Apache and MySQL were running.
+- I created a PHP script named "hello.php" with the content:
+  ```php
+  <?php
+  echo "Hello, World!";
+  ?>
+
+
+I saved the "hello.php" file in the "htdocs" directory.
+I successfully viewed my PHP page by entering the URL "http://localhost/hello.php" in my web browser.
+Attached is a screenshot of my web browser displaying the "Hello, World!" message.
+
+[Attach Screenshot]
+
+
+
+**Grading Criteria:**
+
+Your assignment will be evaluated based on the following criteria:
+
+- Successful installation and configuration of the PHP development environment.
+- Correct creation and execution of the "Hello, World!" PHP script.
+- Clarity and completeness of the submission report.
+- Proper attachment of the screenshot confirming the "Hello, World!" message.
+
+
+
+

@@ -1,0 +1,32 @@
+Functions and Error Handling
+
+Objective: To reinforce knowledge of PHP functions and error handling.
+
+Task:
+
+In this assignment, you will create a PHP script that calculates the factorial of a number using a user-defined function. This assignment will not only test your ability to create functions but also your skills in handling errors gracefully. You should check for potential issues like negative numbers or non-integer inputs and respond appropriately.
+
+Instructions:
+
+Create a PHP file named factorial_calculator.php.
+
+Write a user-defined function called calculateFactorial that takes one parameter (an integer) and returns its factorial.
+
+In your calculateFactorial function, include error handling to ensure that the input is a positive integer. If the input is invalid, provide a meaningful error message.
+
+In the main part of your script (outside the function), prompt the user to input a positive integer.
+
+Call the calculateFactorial function with the user's input and display the factorial if the input is valid.
+
+Test your PHP script with various inputs, including negative numbers and non-integer inputs, to ensure that it handles errors gracefully.
+
+Submit the factorial_calculator.php PHP file.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the calculateFactorial function in calculating factorials.
+Proper implementation of error handling to check for valid input.
+Effective handling of various error scenarios, including negative numbers and non-integer inputs.
+Clarity and readability of the code, including comments explaining the error-handling logic.

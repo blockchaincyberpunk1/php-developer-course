@@ -1,0 +1,82 @@
+Building a Blogging Platform (Optional)
+
+Objective: To develop a basic blogging platform using PHP.
+
+Task:
+
+In this optional assignment, you have the opportunity to create a simple blogging platform from scratch using PHP. The goal is to build a platform that allows users to perform various actions related to blog posts, such as creating, editing, and deleting posts. Users should also be able to view a list of blog posts and click on individual posts to read them.
+
+Instructions:
+
+Set Up Your Development Environment:
+
+Ensure that you have a working PHP development environment (as set up in previous assignments).
+Set up a MySQL database to store blog post data.
+User Authentication (Optional):
+
+If you haven't implemented user authentication in a previous assignment, consider adding it to this project. Users should be able to register, log in, and log out of the blogging platform.
+Blog Post Features:
+
+Create a user-friendly interface for performing the following actions:
+Create Post: Allow users to create new blog posts. The post should include a title, content, and a publication date.
+Edit Post: Implement an editing feature that lets users update existing blog posts.
+Delete Post: Allow users to delete their own posts.
+List Posts: Create a page that lists all the blog posts with their titles and publication dates.
+Read Post: Develop a feature that allows users to click on a post's title to view the full content.
+Database Integration:
+
+Use PHP and MySQL to interact with the database. You should create tables for users and blog posts.
+Ensure that users can only edit or delete their own posts.
+User Experience (Optional):
+
+Enhance the user experience with proper navigation, forms, and error handling.
+Implement user-friendly URLs for blog posts (e.g., "blog/post-title").
+Testing:
+
+Thoroughly test your blogging platform to ensure that all features work correctly. Check for any potential issues or bugs.
+Documentation:
+
+Provide clear documentation on how to use your blogging platform, including instructions for registering, creating posts, and editing/deleting posts.
+Submission:
+
+Submit the following for this optional assignment:
+
+The PHP files and scripts for your blogging platform.
+A brief document or email confirming the successful completion of the assignment.
+Example Submission (partial):
+
+Assignment5-Submission.zip:
+
+index.php (list of blog posts)
+create_post.php (create a new post)
+edit_post.php (edit an existing post)
+delete_post.php (delete a post)
+view_post.php (read a post)
+user_auth.php (user authentication - optional)
+database.sql (SQL schema for users and blog posts)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 5: Building a Blogging Platform (Optional)
+
+- I have created a basic blogging platform using PHP.
+- Users can register, log in, and log out (optional).
+- Users can create, edit, and delete blog posts.
+- There is a page that lists all blog posts.
+- Users can view individual blog posts.
+- The platform interacts with a MySQL database to store data.
+- I have thoroughly tested the platform to ensure functionality.
+- I have provided documentation on how to use the platform.
+
+[Attach PHP files and SQL schema]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful implementation of the blogging platform's features.
+Correct handling of user authentication (if implemented).
+Database interactions for creating, reading, updating, and deleting blog posts.
+User experience and user interface design.
+Clarity and completeness of the submission report.
+Thorough testing and documentation of the blogging platform.

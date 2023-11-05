@@ -1,0 +1,71 @@
+Adding Interactive Features with JavaScript
+
+Objective: To enhance the user experience with interactive web features.
+
+Task:
+
+In this assignment, you will build upon your existing PHP-based CMS or blogging platform from previous assignments and add interactive features using JavaScript. The goal is to make your application more engaging and user-friendly. Here are the specific tasks:
+
+Instructions:
+
+Choose Your Features:
+
+Identify at least three interactive features that you can add to your CMS or blogging platform using JavaScript. These could include:
+Live previews for articles as users type.
+Form validation to ensure data entered by users is correct.
+Dynamic content loading, such as infinite scrolling for articles.
+Interactive comments section with real-time updates.
+Any other features that enhance user interactivity.
+JavaScript Implementation:
+
+Write JavaScript code to implement the chosen features in your application.
+Ensure that your JavaScript code is well-organized and follows best practices.
+User Interface (UI):
+
+Update your application's user interface to accommodate the new interactive features.
+Make sure the interface remains user-friendly and responsive.
+Testing:
+
+Thoroughly test your application to ensure that the new interactive features work as expected.
+Test different scenarios and edge cases to verify that your JavaScript code handles them gracefully.
+Documentation:
+
+Provide documentation within your application or as a separate document that explains how users can interact with the new features.
+Include information about the purpose and functionality of each feature.
+Submission:
+
+Submit the following for this assignment:
+
+All PHP, HTML, CSS, and JavaScript files related to your application, including the new JavaScript code for interactive features.
+
+Documentation within your application or as a separate document explaining how users can interact with the added features.
+
+Example Submission (partial):
+
+Assignment1-Interactive-Features-Submission.zip:
+
+index.php (Main application file)
+interactive_features.js (JavaScript for interactive features)
+styles.css (CSS for styling the application)
+interactive_features_documentation.txt (Documentation)
+Report (report.txt):
+
+
+Assignment 1: Adding Interactive Features with JavaScript
+
+- I have successfully added three interactive features to my CMS/blogging platform using JavaScript.
+- The features include live previews for articles, form validation, and dynamic content loading.
+- JavaScript code is well-organized and follows best practices.
+- The application's user interface has been updated to accommodate the new features.
+- Thorough testing of interactive features has been performed, and they function as expected.
+- Documentation explaining how users can interact with the added features is provided.
+
+[Attach PHP files, HTML, CSS, JavaScript, and documentation]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of interactive features using JavaScript.
+User-friendly and responsive user interface updates.
+Thorough testing and handling of different scenarios.
+Clear and helpful documentation for users.

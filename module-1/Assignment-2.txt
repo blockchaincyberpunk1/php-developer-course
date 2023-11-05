@@ -1,0 +1,56 @@
+HTML Forms and User Input
+
+Objective: To understand HTML forms and user input handling.
+
+Task: In this assignment, you will design an HTML form that collects user information, including name, email, and feedback. You will use various form elements like text fields, radio buttons, checkboxes, and a submit button. Additionally, you will implement basic form validation using HTML attributes.
+
+Instructions:
+
+Create a New HTML Document:
+
+Open your preferred text editor (e.g., Notepad, Visual Studio Code, Sublime Text).
+Create a new file and save it with the .html extension (e.g., user_feedback.html).
+HTML Structure:
+
+Begin by defining the basic structure of an HTML document using the <!DOCTYPE html> declaration.
+Create the HTML <html> element that encloses the entire page.
+Inside the <html> element, include the <head> and <body> elements.
+Page Title:
+
+Within the <head> section, set the title of your web page using the <title> element (e.g., "User Feedback Form").
+Form Creation:
+
+Inside the <body> section, create an HTML <form> element.
+Use various form elements to collect the following user information:
+Name: <input> element with type="text"
+Email: <input> element with type="email"
+Gender (radio buttons): <input> elements with type="radio"
+Feedback (text area): <textarea> element
+Interests (checkboxes): <input> elements with type="checkbox"
+Submit Button: <input> element with type="submit"
+Form Validation:
+
+Implement basic form validation using HTML attributes (e.g., required, pattern, minlength, maxlength) to ensure that users provide valid input.
+For example, the email input can use the type="email" attribute to enforce valid email addresses.
+Submit Action:
+
+Specify the action to be taken when the user submits the form using the action attribute. You can use a placeholder value like action="#" for this assignment.
+Method:
+
+Set the HTTP method to POST using the method attribute.
+View in Browser:
+
+Open your HTML file in a web browser to test the form and ensure that form validation works as expected.
+Submission:
+
+Save your HTML file after making any final adjustments.
+Submit the HTML file that contains your user feedback form.
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct HTML structure, including the use of essential HTML elements.
+Inclusion of all required form elements (name, email, gender, feedback, interests, and submit button).
+Proper form validation using HTML attributes.
+Accuracy of the displayed form in the browser.
+Properly named and submitted HTML file with the .html extension.

@@ -1,0 +1,124 @@
+# PHP specific #
+###############
+*.php~
+
+# Composer #
+############
+/vendor/
+/composer.lock
+/composer.phar
+/composer.json
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# Logs #
+########
+*.log
+*.log.*
+
+# OS and Editor folders #
+#########################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Exported databases #
+######################
+*.sql
+*.sql.gz
+*.csv
+
+# Node #
+########
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# PHPStorm #
+############
+.idea/
+
+# Environments #
+################
+.env
+.env.local
+.env.*.local
+
+# PHPunit #
+###########
+/phpunit.xml
+/vendor/bin/phpunit
+/phpunit-watcher.yml
+
+# User-specific files #
+######################
+/.php_cs.cache
+/.php_cs.dist
+/.phpunit.result.cache
+
+# PHPStorm-Related #
+####################
+/.idea
+
+# Behat #
+#########
+/behat.yml
+
+# PHP server #
+##############
+/phpserver
+
+# User-specific #
+#################
+/.vscode
+
+# PHP config files #
+####################
+/php.ini
+/php-cli.ini
+/php-fpm.ini
+/user.ini
+
+# Cache and logs (Symfony) #
+############################
+/var/
+!/var/index.php
+!/var/.htaccess
+/cache/
+/log/
+!log/.gitkeep
+!cache/.gitkeep
+
+# Sessions #
+############
+/sessions
+
+# Trailing Whitespace #
+#######################
+*~
+
+# Files that might appear in the root of a volume #
+###################################################
+/.DocumentRevisions-V100
+/.fseventsd
+/.Spotlight-V100
+/.TemporaryItems
+/.Trashes
+/.VolumeIcon.icns
+/.com.apple.timemachine.donotpresent
+/.AppleDB
+/.AppleDesktop
+/Network Trash Folder
+/Temporary Items
+/.apdisk
+
+
+/articles
+/guides
+/infographics
+/presentations

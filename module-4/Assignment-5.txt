@@ -1,0 +1,106 @@
+Implementing a Web Application
+
+Objective: To apply OOP principles and database integration in a web application.
+
+Task:
+
+In this assignment, you will design and implement a web application using PHP that incorporates object-oriented programming (OOP) principles and integrates with a MySQL database. The goal is to create a functional web application with CRUD (Create, Read, Update, Delete) operations for a specific scenario.
+
+Assignment Scenario: A Task Management System
+
+You are tasked with developing a Task Management System. Users should be able to create tasks, view a list of tasks, edit task details, and delete tasks. The application should have the following features:
+
+Functional Requirements:
+
+User Registration and Login:
+
+Users should be able to register for an account with a username and password.
+Registered users should be able to log in to access the task management features.
+Task Management:
+
+Registered users can create tasks with a title, description, and due date.
+Users can view a list of their tasks.
+Users can edit task details.
+Users can delete tasks.
+Database Integration:
+
+Use MySQL to store user account information (e.g., username and hashed password) and task details (e.g., title, description, due date).
+Design a suitable database schema to support these features.
+Object-Oriented Design:
+
+Implement PHP classes that encapsulate the core functionality of the application, such as a User class for user management and a Task class for task management.
+User Authentication:
+
+Implement user registration and login functionality.
+Use PHP sessions to manage user authentication.
+Assignment Deliverables:
+
+Submit your assignment as a ZIP file containing the following items:
+
+PHP files for the web application, organized into appropriate directories (e.g., registration/, task_management/).
+
+SQL script or schema file (e.g., schema.sql) that defines the MySQL database tables and structure.
+
+A README or documentation file explaining the organization of your PHP files, the structure of your MySQL database, and how to use the web application.
+
+Example Submission (partial):
+
+PHP File (create_task.php):
+
+
+<?php
+// Task creation logic goes here
+?>
+
+
+PHP File (view_tasks.php):
+
+
+<?php
+// Task listing logic goes here
+?>
+
+
+SQL Schema File (schema.sql):
+
+
+-- SQL schema for user information and tasks
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    description TEXT,
+    due_date DATE,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+
+README (readme.txt):
+
+
+Assignment 5: Task Management System
+
+This assignment includes PHP files for a Task Management System web application, as well as an SQL schema for the database.
+
+- create_task.php: Task creation logic.
+- view_tasks.php: Task listing logic.
+- schema.sql: MySQL database schema for user information and tasks.
+
+To run the application, follow the instructions in the documentation file.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct implementation of user registration, login, and task management functionality.
+Proper database schema design and integration.
+Effective use of PHP classes and OOP principles.
+Secure handling of user inputs and authentication.
+Clarity of documentation and explanations.
+Adherence to best practices for web application development.

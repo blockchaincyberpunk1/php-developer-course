@@ -1,0 +1,47 @@
+Responsive Web Design
+
+Objective: To explore responsive design principles.
+
+Task: In this assignment, you will receive a basic HTML structure for a webpage. Your task is to make this webpage responsive using CSS media queries. You should adjust the layout and styling to ensure that the webpage looks and functions well on different screen sizes, such as desktop, tablet, and mobile. You will submit both the HTML and CSS files, along with screenshots demonstrating the responsive behavior.
+
+Instructions:
+
+Download the HTML Structure:
+
+You will be provided with an HTML file (e.g., basic_structure.html) that contains the structure of a basic webpage. Download this file to your computer.
+Create a New CSS File:
+
+Open your preferred text editor (e.g., Notepad, Visual Studio Code, Sublime Text).
+Create a new file and save it with the .css extension (e.g., styles.css).
+Link CSS to HTML:
+
+In the <head> section of the HTML file (basic_structure.html), link the external CSS file (styles.css) using the <link> element.
+Apply Responsive Design:
+
+In the styles.css file, use CSS media queries to adjust the layout and styling for different screen sizes. Consider the following aspects:
+Modify the layout, positioning, or alignment of elements as needed.
+Adjust font sizes, margins, padding, or other CSS properties to ensure readability and aesthetics on smaller screens.
+Make any elements or sections hide or show selectively based on screen size.
+Ensure that images and media adapt appropriately to different screen sizes.
+Test the responsiveness of navigation menus, if applicable.
+Test Responsive Behavior:
+
+Open the basic_structure.html file in a web browser and test how the webpage responds to different screen sizes by resizing the browser window.
+Ensure that the webpage looks visually appealing, maintains usability, and adapts well to various devices.
+Take Screenshots:
+
+Take screenshots of the webpage displaying its responsive behavior on different screen sizes (e.g., desktop, tablet, mobile). You should capture both portrait and landscape orientations for mobile devices.
+Submission:
+
+Save both the HTML file (basic_structure.html) and the CSS file (styles.css) after making your responsive design changes.
+Submit both files, along with the screenshots demonstrating the responsive behavior.
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct linking of the external CSS file to the HTML document.
+Effective use of CSS media queries to create a responsive design.
+Appropriately adjusted layout, styling, and element visibility for different screen sizes.
+Successful adaptation of images and media to various screen sizes.
+Evidence of testing and validation of responsive behavior through screenshots.
+Properly named and submitted HTML and CSS files with the respective extensions.

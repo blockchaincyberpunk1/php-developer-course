@@ -1,0 +1,44 @@
+Basic CSS Styling
+
+Objective: To practice applying CSS styles to HTML elements.
+
+Task: In this assignment, you will be provided with an HTML file containing an unstyled webpage. Your task is to create an external CSS file and apply styles to format text, change colors, set fonts, and add margins and padding. You will submit both the HTML and CSS files as part of this assignment.
+
+Instructions:
+
+Download the HTML File:
+
+You will be provided with an HTML file (e.g., unstyled.html) that contains the structure of an unstyled webpage. Download this file to your computer.
+Create a New CSS File:
+
+Open your preferred text editor (e.g., Notepad, Visual Studio Code, Sublime Text).
+Create a new file and save it with the .css extension (e.g., styles.css).
+Link CSS to HTML:
+
+In the <head> section of the HTML file (unstyled.html), link the external CSS file (styles.css) using the <link> element.
+Apply CSS Styles:
+
+In the styles.css file, apply the following CSS styles to format the webpage:
+Set a background color for the entire page.
+Change the font family and size of the text.
+Add margins and padding to elements for spacing.
+Change the text color.
+Adjust the line height for readability.
+Style headings (e.g., change color, font weight).
+Apply CSS styles to any specific elements (e.g., links, paragraphs) as you see fit to enhance the webpage's appearance.
+View in Browser:
+
+Open the unstyled.html file in a web browser to test how the webpage looks with your applied CSS styles. Make any necessary adjustments.
+Submission:
+
+Save both the HTML file (unstyled.html) and the CSS file (styles.css) after making your styling changes.
+Submit both files as part of your assignment.
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct linking of the external CSS file to the HTML document.
+Application of CSS styles to format the webpage, including background color, font styles, margins, padding, and text colors.
+Effective styling that enhances the appearance and readability of the webpage.
+Accuracy of the displayed webpage in the browser.
+Properly named and submitted HTML and CSS files with the respective extensions.

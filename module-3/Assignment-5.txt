@@ -1,0 +1,85 @@
+Database Design
+
+Objective: To practice designing a database schema.
+
+Task:
+
+In this assignment, you will apply your database design skills by creating a database schema for a specific scenario. Imagine you are tasked with designing a database for an online bookstore. Your goal is to create an appropriate database schema that includes tables, relationships, and primary keys.
+
+Scenario: Online Bookstore Database
+
+Your task is to design a database for an online bookstore. The database should store information about books, authors, customers, orders, and categories. Here are the main entities and attributes to consider:
+
+Books:
+
+ISBN (Primary Key)
+Title
+Author (Foreign Key)
+Price
+Publication Year
+Category (Foreign Key)
+Authors:
+
+AuthorID (Primary Key)
+Author Name
+Customers:
+
+CustomerID (Primary Key)
+First Name
+Last Name
+Email
+Address
+Phone Number
+Orders:
+
+OrderID (Primary Key)
+Customer (Foreign Key)
+Order Date
+Order Details:
+
+OrderDetailID (Primary Key)
+Order (Foreign Key)
+Book (Foreign Key)
+Quantity
+Total Price
+Categories:
+
+CategoryID (Primary Key)
+Category Name
+Assignment Requirements:
+
+Design the database schema for the Online Bookstore scenario by creating the necessary tables. Ensure you establish appropriate relationships between tables using foreign keys.
+
+Create an Entity-Relationship Diagram (ERD) that visually represents the relationships between the tables.
+
+Provide a brief description of your schema design choices. Explain why you chose to structure the database in a particular way and how it meets the requirements of the scenario.
+
+Submission:
+
+Submit the following items as part of your assignment:
+
+An ERD diagram that clearly shows the tables, their attributes, and the relationships between them. You can use ERD drawing software or tools for this purpose.
+
+A text document (PDF or Word) that includes a description of your schema design choices. Explain why you structured the database in a certain manner and how it fulfills the needs of the online bookstore scenario.
+
+Example Submission (partial):
+
+ERD Diagram:
+
+[Include an image or diagram of your ERD here.]
+
+Schema Design Choices:
+
+In designing the database for the online bookstore, I made several key decisions:
+
+I created separate tables for "Books," "Authors," "Customers," "Orders," "Order Details," and "Categories" to maintain data integrity and reduce redundancy.
+I used foreign keys to establish relationships between tables. For example, the "Books" table has a foreign key to link to the "Authors" and "Categories" tables, ensuring that each book is associated with the correct author and category.
+...
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Accuracy and completeness of the database schema, including the use of primary keys and foreign keys.
+Clarity and correctness of the ERD diagram.
+Depth and rationale provided in the description of schema design choices.
+Adherence to good database design principles.

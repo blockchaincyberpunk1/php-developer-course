@@ -1,0 +1,61 @@
+Implementing Role-Based Access Control (RBAC)
+
+Objective: To introduce role-based access control (RBAC) concepts.
+
+Task:
+
+In this assignment, you will build upon your existing user authentication system and enhance it by implementing Role-Based Access Control (RBAC). RBAC allows you to control access to various parts of your application based on user roles (e.g., admin, editor, viewer) and permissions.
+
+Instructions:
+
+Define Roles and Permissions:
+
+Define different roles for your application (e.g., admin, editor, viewer).
+Determine the permissions associated with each role. For example, an admin might have full access, while an editor can edit content but not delete it, and a viewer can only read content.
+Database Modifications:
+
+Modify your user database schema to include a field for user roles. You may need to update your registration process to assign roles during user creation.
+Create a new table or structure to store role-permission mappings.
+Access Control Logic:
+
+Implement access control logic throughout your application. This includes controlling access to specific pages, functions, or features based on the user's role and permissions.
+Create PHP functions or methods that check whether a user has the required permissions to perform certain actions.
+User Interface Changes:
+
+Update your application's user interface to reflect the user's role and permissions. For example, display different menu options or buttons based on the user's role.
+Testing:
+
+Test the RBAC implementation with different user roles to ensure that access control works as expected.
+Verify that users can only perform actions allowed by their assigned roles and permissions.
+Submission:
+
+Submit the following for this assignment:
+
+PHP files and scripts related to RBAC implementation.
+A brief document or email confirming the successful implementation of RBAC, including a description of roles and permissions.
+Example Submission (partial):
+
+Assignment3-RBAC-Submission.zip:
+
+rbac.php (RBAC implementation logic)
+user_interface_updates.php (UI changes for role-based access)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 3: Implementing Role-Based Access Control (RBAC)
+
+- I have successfully implemented RBAC for our user authentication system.
+- Roles (admin, editor, viewer) have been defined with appropriate permissions.
+- Access control logic is in place to restrict user actions based on their roles.
+- The user interface has been updated to reflect role-based access.
+
+[Attach PHP files]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of RBAC with clearly defined roles and permissions.
+Proper access control logic that prevents unauthorized actions.
+User interface updates that reflect role-based access.
+Thorough testing to ensure RBAC works as expected for different roles and permissions.

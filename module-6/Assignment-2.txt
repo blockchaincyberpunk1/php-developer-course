@@ -1,0 +1,70 @@
+Creating a Content Management System (CMS) - Part 2
+
+Objective: To complete the CMS functionality and enhance user content management.
+
+Task:
+
+In this assignment, you will continue developing the PHP-based CMS from Assignment 1. Your goal is to extend the CMS by adding essential features such as content editing, content deletion, and listing all available content. Emphasize user-friendly interfaces for content management.
+
+Instructions:
+
+Edit Content:
+
+Implement a user interface that allows administrators to edit existing content items.
+Ensure that only administrators can access the edit functionality.
+Delete Content:
+
+Create a mechanism for administrators to delete content items.
+Include confirmation prompts to prevent accidental deletions.
+List All Content:
+
+Develop a dedicated page where all available content items are listed.
+Include sorting options (e.g., by date, title) to make content discovery easier.
+User Experience Enhancements:
+
+Improve the overall user interface and user experience (UI/UX) of the CMS.
+Ensure that administrators can intuitively manage content, navigate the CMS, and receive clear feedback.
+Security Considerations:
+
+Enhance security by implementing proper validation and escaping of user inputs.
+Ensure that only authenticated administrators can perform content management actions.
+Testing:
+
+Thoroughly test the CMS to identify and resolve any issues or bugs.
+Verify that all features work as expected.
+Submission:
+
+Submit the following for this assignment:
+
+The PHP files and scripts for your extended CMS (Part 2).
+A brief document or email confirming the successful completion of Part 2.
+Example Submission (partial):
+
+Assignment2-Part2-Submission.zip:
+
+edit_content.php (edit content functionality)
+delete_content.php (delete content functionality)
+list_content.php (list all content items)
+updated_user_auth.php (enhanced user authentication)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 2: Creating a Content Management System (CMS) - Part 2
+
+- I have extended the CMS functionality, adding content editing and deletion.
+- A new page lists all available content items with sorting options.
+- The user experience and interface have been enhanced.
+- Security measures have been implemented for user inputs.
+- Thorough testing has been conducted.
+
+
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of content editing and deletion.
+Proper functionality for listing all available content items.
+Enhanced user experience and user interface design.
+Security considerations, including input validation and authentication.
+Effective testing and bug resolution.

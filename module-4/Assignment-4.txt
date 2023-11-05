@@ -1,0 +1,90 @@
+Building a User Authentication System
+
+Objective: To build a user authentication system using PHP and MySQL.
+
+Task:
+
+In this assignment, you will create a user authentication system using PHP and MySQL. The goal is to implement user registration, login, and password hashing functionalities. You will also design a MySQL database schema to securely store user information.
+
+Assignment Requirements:
+
+Database Setup: Set up a MySQL database to store user information securely. Your database schema should include tables for user registration and login.
+
+User Registration:
+
+Create a PHP registration form that allows users to sign up by providing a username and password.
+Implement server-side validation to ensure that usernames are unique and that passwords meet security requirements (e.g., minimum length, complexity).
+Hash and securely store user passwords in the database. Use PHP's password hashing functions (e.g., password_hash) for this purpose.
+User Login:
+
+Create a PHP login form that allows registered users to log in by providing their username and password.
+Implement server-side validation to verify user credentials against the database.
+Use PHP's password verification functions (e.g., password_verify) to compare stored hashed passwords with the provided password.
+Session Management: Implement PHP session management to keep users authenticated across multiple pages after a successful login.
+
+Security Considerations: Discuss security best practices for protecting against common vulnerabilities such as SQL injection and cross-site scripting (XSS).
+
+Assignment Deliverables:
+
+Submit your assignment as a ZIP file containing the following items:
+
+PHP files for user registration and login (e.g., register.php, login.php).
+
+SQL script or schema file (e.g., schema.sql) that defines the MySQL database tables and structure for user information.
+
+A README or documentation file explaining the structure of your PHP files and MySQL schema, including any security measures implemented.
+
+Example Submission (partial):
+
+PHP File (register.php):
+
+
+<?php
+// User registration logic goes here
+?>
+
+
+PHP File (login.php):
+
+
+<?php
+// User login logic goes here
+?>
+
+
+SQL Schema File (schema.sql):
+
+
+-- SQL schema for user information
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+
+README (readme.txt):
+
+
+Assignment 4: User Authentication System
+
+This assignment includes PHP files for user registration and login, as well as an SQL schema for user information.
+
+- register.php: User registration logic.
+- login.php: User login logic.
+- schema.sql: MySQL database schema for user information.
+
+Security Measures:
+- Passwords are securely hashed using password_hash.
+- User inputs are sanitized to prevent SQL injection and XSS.
+
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct implementation of user registration and login functionality.
+Proper password hashing and verification using PHP functions.
+Secure handling of user inputs to prevent vulnerabilities.
+Clarity of documentation and explanations.
+Adherence to best practices for user authentication system security.

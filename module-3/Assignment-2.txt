@@ -1,0 +1,70 @@
+Setting Up a MySQL Database
+
+Objective: To practice creating a MySQL database and tables.
+
+Task:
+
+In this assignment, you will gain hands-on experience in setting up a MySQL database and designing a schema for a simple web application. Follow the steps below:
+
+Database Setup:
+
+Install MySQL locally on your computer if you haven't already. You can also use an online MySQL service.
+Create a new database named "webappdb".
+Table Design:
+
+Design a schema for a simple web application that includes the following tables:
+Users: This table should store information about registered users, including fields like user ID, username, email, and password.
+Products: This table should store information about products available in the web application, such as product ID, name, description, price, and stock quantity.
+Orders: This table should track user orders, including order ID, user ID (foreign key referencing the Users table), product ID (foreign key referencing the Products table), order date, and quantity.
+SQL Scripts:
+
+Write SQL scripts to create the "webappdb" database and the above-mentioned tables with appropriate data types and constraints. Ensure that you define primary keys, foreign keys, and any other necessary constraints.
+Submission:
+
+Submit the SQL scripts you created for database creation and table schemas. You can include comments in your scripts to explain the purpose of each SQL statement.
+Example Submission (partial):
+
+
+-- SQL script to create the 'webappdb' database
+CREATE DATABASE IF NOT EXISTS webappdb;
+
+-- Use the 'webappdb' database
+USE webappdb;
+
+-- SQL script to create the 'Users' table
+CREATE TABLE IF NOT EXISTS Users (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    Username VARCHAR(50) NOT NULL,
+    Email VARCHAR(100) NOT NULL UNIQUE,
+    Password VARCHAR(255) NOT NULL
+);
+
+-- SQL script to create the 'Products' table
+CREATE TABLE IF NOT EXISTS Products (
+    ProductID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Description TEXT,
+    Price DECIMAL(10, 2) NOT NULL,
+    StockQuantity INT NOT NULL
+);
+
+-- SQL script to create the 'Orders' table
+CREATE TABLE IF NOT EXISTS Orders (
+    OrderID INT AUTO_INCREMENT PRIMARY KEY,
+    UserID INT,
+    ProductID INT,
+    OrderDate DATE,
+    Quantity INT,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID),
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
+);
+
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Successful creation of the "webappdb" database.
+Accurate and well-designed table schemas for Users, Products, and Orders.
+Proper use of primary keys, foreign keys, data types, and constraints in the SQL scripts.
+Clarity and organization of your SQL scripts.

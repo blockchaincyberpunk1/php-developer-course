@@ -1,0 +1,85 @@
+CRUD Operations in SQL
+
+Objective: To reinforce CRUD (Create, Read, Update, Delete) operations in SQL.
+
+Task:
+
+In this assignment, you will practice performing CRUD operations on the "webappdb" database that you created in Assignment 2. Below are the CRUD operations you need to perform along with SQL statements for each operation. Write SQL scripts for each operation and submit them as separate text files. Ensure that each SQL script includes clear labels for the operation and query.
+
+Operation 1: Create (Insert) Data
+
+Write SQL statements to insert sample data into the "Users," "Products," and "Orders" tables. You should insert at least three records into each table.
+
+Operation 2: Read (Select) Data
+
+Write SQL statements to retrieve the following information:
+
+Retrieve the details of all users from the "Users" table.
+Retrieve the names and prices of all products from the "Products" table.
+Retrieve the usernames and order dates of users who have placed orders from the "Orders" table.
+Operation 3: Update Data
+
+Write SQL statements to perform the following updates:
+
+Update the price of a specific product in the "Products" table.
+Update the user's email address in the "Users" table.
+Operation 4: Delete Data
+
+Write SQL statements to delete the following data:
+
+Delete a specific product from the "Products" table.
+Delete a specific order from the "Orders" table.
+Submission:
+
+Submit a text file for each CRUD operation (8 text files in total) with the operation name and the SQL statements clearly labeled. Use any text editor or SQL tool to write and save your SQL scripts.
+
+Example Submission (partial):
+
+CreateData.sql
+
+
+-- Operation 1: Create (Insert) Data
+
+-- Insert sample users
+INSERT INTO Users (Username, Email) VALUES
+('user1', 'user1@example.com'),
+('user2', 'user2@example.com'),
+('user3', 'user3@example.com');
+
+-- Insert sample products
+INSERT INTO Products (Name, Price) VALUES
+('Product A', 19.99),
+('Product B', 29.99),
+('Product C', 39.99);
+
+-- Insert sample orders
+INSERT INTO Orders (UserID, OrderDate) VALUES
+(1, '2023-01-15'),
+(2, '2023-02-20'),
+(3, '2023-03-25');
+
+ReadData.sql
+
+
+-- Operation 2: Read (Select) Data
+
+-- Retrieve all users
+SELECT * FROM Users;
+
+-- Retrieve product names and prices
+SELECT Name, Price FROM Products;
+
+-- Retrieve usernames and order dates
+SELECT u.Username, o.OrderDate
+FROM Users u
+JOIN Orders o ON u.ID = o.UserID;
+...
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Accuracy and correctness of the SQL statements for each CRUD operation.
+Proper formatting and organization of the SQL scripts.
+Ability to successfully perform CRUD operations on the database schema.
+Clarity in labeling and submission of individual CRUD operation files.

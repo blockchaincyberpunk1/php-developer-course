@@ -1,0 +1,67 @@
+Implementing User Authentication
+
+Objective: To reinforce understanding of user authentication and security.
+
+Task:
+
+In this assignment, you will enhance the content management system (CMS) or blogging platform that you have been working on in previous assignments. Your task is to implement user authentication to ensure that only authorized users can access specific features and content.
+
+Instructions:
+
+User Registration:
+
+Create a user registration form that allows new users to sign up for an account.
+Validate user input, including checking for unique usernames and strong password requirements.
+Store user registration data securely in the database.
+User Login:
+
+Develop a user login page where registered users can enter their credentials (username and password) to log in.
+Implement secure password hashing and verification to ensure password safety.
+Access Control:
+
+Implement access control to restrict certain features or content to authenticated users only.
+Decide which parts of your CMS or blogging platform should be accessible to all users and which should be restricted.
+User Profiles:
+
+Create user profiles that display user information (e.g., username, profile picture, bio).
+Allow users to edit their profiles and change their passwords.
+Logout:
+
+Implement a logout feature that allows users to log out securely.
+Testing:
+
+Thoroughly test the user registration, login, and access control features to ensure that they work as expected.
+Verify that unauthorized users cannot access restricted areas.
+Submission:
+
+Submit the following for this assignment:
+
+PHP files and scripts related to user registration, login, access control, user profiles, and logout.
+A brief document or email confirming the successful implementation of user authentication.
+Example Submission (partial):
+
+Assignment1-UserAuthentication-Submission.zip:
+
+registration.php (user registration functionality)
+login.php (user login functionality)
+access_control.php (access control logic)
+user_profile.php (user profile page)
+logout.php (logout functionality)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 1: Implementing User Authentication
+
+- I have implemented user registration, login, access control, user profiles, and logout features.
+- All features have been tested and work as expected.
+
+[Attach PHP files]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of user registration, login, access control, user profiles, and logout features.
+Effective access control to restrict content to authorized users.
+Secure password handling using hashing and verification.
+Thorough testing to ensure correct functionality and security.

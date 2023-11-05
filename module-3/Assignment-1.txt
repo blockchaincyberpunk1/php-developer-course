@@ -1,0 +1,45 @@
+Database Terminology Quiz
+
+Objective: To reinforce understanding of database concepts.
+
+Task:
+
+In this assignment, you will test your knowledge of essential database terminology. Below is a list of database-related terms, along with their definitions. Your task is to match each term with the correct definition. Please write the corresponding letter (e.g., A, B, C) next to each term to indicate your answer.
+
+Database Terms:
+
+A) Table
+B) Record
+C) Field
+D) Primary Key
+E) Query
+F) Index
+G) SQL
+
+Definitions:
+
+_______ A set of related data organized in rows and columns.
+
+_______ A single piece of data stored in a database table.
+
+_______ A unique identifier for each record in a table.
+
+_______ A structured query language used for managing and querying databases.
+
+_______ A request for information from a database.
+
+_______ An ordered list of values that allows for faster data retrieval.
+
+_______ A complete set of data for a single entity in a database.
+
+Submission:
+
+Please match each term with its correct definition by writing the corresponding letter next to the term (e.g., A - 1, B - 2, etc.). You may type your responses in a document or provide your answers in a neatly organized format.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Accuracy of matching terms with their definitions.
+Correct use of database terminology.
+Clarity and organization of your responses.

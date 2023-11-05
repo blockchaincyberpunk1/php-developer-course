@@ -1,0 +1,37 @@
+Basic PHP Script
+
+Objective: To practice writing a simple PHP script.
+
+Task:
+
+In this assignment, you will create a basic PHP script that displays "Hello, World!" on a web page. This is a fundamental exercise to get you started with PHP.
+
+Instructions:
+
+Create a new PHP file named hello.php.
+
+Inside the hello.php file, write the PHP code to display "Hello, World!" on the web page. You can use the echo statement for this purpose.
+
+Add comments to your PHP code to explain each part of the script. Include comments that describe what the code does and any relevant details.
+
+Save the hello.php file.
+
+Set up a local web server environment (e.g., XAMPP, WAMP, MAMP) if you don't already have one installed.
+
+Place the hello.php file in the appropriate directory of your local web server so that it can be accessed via a web browser.
+
+Open a web browser, enter the URL to access your PHP script (e.g., http://localhost/hello.php), and take a screenshot of the web page displaying "Hello, World!"
+
+Submission Instructions:
+
+Submit the hello.php file that contains your PHP script.
+
+Attach a screenshot of the web page displaying "Hello, World!" as it appears in your web browser.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the PHP script to display "Hello, World!"
+Clarity and completeness of comments explaining the code.
+Successful execution and screenshot of the web page.

@@ -1,0 +1,48 @@
+Control Structures
+
+Objective: To practice using control structures in PHP.
+
+Task:
+
+In this assignment, you will be presented with a set of coding challenges that require you to utilize PHP control structures. Control structures include if statements, loops (for and while), and switch statements. These challenges will test your ability to make decisions, iterate over data, and perform specific actions based on different conditions.
+
+Instructions:
+
+Create a separate PHP file for each challenge. Name the PHP files appropriately based on the challenge.
+
+Write PHP scripts to solve each challenge using the specified control structures (if statements, loops, or switch statements). Ensure that your code is well-documented with comments to explain each step.
+
+Test your PHP scripts to ensure they provide the correct solutions for each challenge.
+
+Submit the PHP files for each challenge as separate attachments.
+
+Challenges:
+
+Even or Odd Checker:
+Write a PHP script that checks if a given number is even or odd. Prompt the user to input a number, and then display a message indicating whether it's even or odd.
+
+Factorial Calculator:
+Create a PHP script that calculates the factorial of a given number using a while loop. Prompt the user to input a positive integer, and then display the factorial.
+
+Palindrome Checker:
+Develop a PHP script that checks if a given word is a palindrome (reads the same forwards and backward). Allow the user to input a word, and then display whether it's a palindrome or not.
+
+Fibonacci Series:
+Write a PHP script that generates the Fibonacci series up to a specified number of terms using a for loop. Prompt the user to input the number of terms, and then display the series.
+
+Grade Calculator:
+Create a PHP script that calculates a student's grade based on their exam score. Ask the user to input the score, and then display the corresponding grade (e.g., A, B, C, D, F).
+
+Submission Instructions:
+
+Create separate PHP files for each challenge and name them accordingly.
+
+Submit all the PHP files for the challenges as separate attachments.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the PHP scripts in solving each challenge.
+Proper use of control structures (if statements, loops, or switch statements).
+Clarity and completeness of comments explaining the code.

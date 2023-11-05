@@ -1,0 +1,62 @@
+ Implementing CRUD Operations
+
+Objective: To practice CRUD (Create, Read, Update, Delete) operations using PHP and MySQL.
+
+Task:
+
+In this assignment, you will work with a MySQL database that contains a table representing a specific entity (e.g., products, tasks, or contacts). Your task is to create a set of PHP scripts to perform CRUD operations on the data in this table. The CRUD operations should include adding new records, reading records, updating existing records, and deleting records.
+
+Instructions:
+
+Set Up Your Development Environment:
+
+Ensure that you have a working PHP development environment (as set up in previous assignments).
+Import the provided MySQL database schema into your local MySQL server. You should have access to a table with sample data.
+Create PHP Scripts:
+
+Develop a set of PHP scripts to perform the following CRUD operations:
+Create (Add): Implement a script that allows users to add new records to the database table. Users should be able to input data for all relevant fields.
+Read: Create a script to retrieve and display records from the database. You may implement various reading options, such as displaying all records, searching for specific records, or displaying records based on certain criteria.
+Update: Build a script that enables users to edit and update existing records. Users should be able to modify the data in any field.
+Delete: Develop a script that allows users to delete records from the database. Users should have the ability to choose which records to delete.
+User Interface (Optional):
+
+You can create a basic web interface to interact with your CRUD scripts. This will make it easier for users to perform CRUD operations through a web page.
+Testing:
+
+Test each CRUD operation to ensure that it works correctly. Verify that records are added, retrieved, updated, and deleted as expected.
+Submission:
+
+Submit the following for this assignment:
+
+The PHP scripts for each of the CRUD operations (Create, Read, Update, Delete).
+A brief document or email confirming the successful completion of the assignment.
+Example Submission (partial):
+
+Assignment4-Submission.zip:
+
+create_record.php
+read_records.php
+update_record.php
+delete_record.php
+Report (report.txt):
+
+
+Assignment 4: Implementing CRUD Operations
+
+- I have created PHP scripts for CRUD operations.
+- "create_record.php" allows users to add new records to the database.
+- "read_records.php" retrieves and displays records with various options (e.g., all records, specific criteria).
+- "update_record.php" lets users edit and update existing records.
+- "delete_record.php" enables users to delete records from the database.
+- I have tested each operation and verified that they work correctly.
+
+[Attach PHP scripts]
+Grading Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Successful implementation of CRUD operations using PHP and MySQL.
+Correct handling of data for each operation (Create, Read, Update, Delete).
+Clarity and completeness of the submission report.
+Inclusion of PHP scripts for each CRUD operation.

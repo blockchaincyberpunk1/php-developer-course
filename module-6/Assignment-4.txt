@@ -1,0 +1,61 @@
+Building a Blogging Platform - Part 1 (Optional)
+
+Objective: To start building a blogging platform.
+
+Task:
+
+For this optional project, you will begin the development of a blogging platform. In Part 1, you will focus on setting up the foundational components, including designing the database schema and creating the basic structure for adding, editing, and deleting blog articles. You can also implement user registration and login to prepare for user-specific content.
+
+Instructions:
+
+Database Design:
+
+Design the database schema for your blogging platform. Consider tables for storing blog articles, user information, comments, and any other necessary data.
+Define the relationships between different tables (e.g., one-to-many between users and articles, and between articles and comments).
+User Registration and Login:
+
+Implement user registration and login functionality if you haven't already done so in previous assignments.
+Ensure that user registration includes fields like username, email, and password.
+Article Management:
+
+Create a user interface for adding, editing, and deleting blog articles.
+Implement validation to ensure that articles have required fields (e.g., title, content) and display helpful error messages when needed.
+Articles should be associated with the user who created them.
+Testing:
+
+Thoroughly test the article management features and user registration/login.
+Ensure that data is correctly stored and retrieved from the database.
+Submission:
+
+Submit the following for this optional assignment:
+
+The SQL script containing your database schema design.
+PHP files and scripts for user registration, login, and article management.
+A brief document or email confirming the successful completion of Part 1.
+Example Submission (partial):
+
+Assignment4-BloggingPlatform-Part1-Submission.zip:
+
+database_schema.sql (SQL script for database schema design)
+user_registration.php (user registration functionality)
+user_login.php (user login functionality)
+article_management.php (article creation, editing, and deletion functionality)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 4: Building a Blogging Platform - Part 1 (Optional)
+
+- I have designed the database schema for the blogging platform.
+- User registration and login functionalities are implemented.
+- Basic article management features are added.
+
+[Attach SQL script and PHP files]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful database schema design with appropriate relationships.
+Functional user registration and login.
+Proper implementation of article management features.
+Effective testing to ensure correct functionality.

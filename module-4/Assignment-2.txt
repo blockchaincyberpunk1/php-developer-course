@@ -1,0 +1,104 @@
+Inheritance and Polymorphism
+
+Objective: To understand inheritance and polymorphism in PHP.
+
+Task:
+
+In this assignment, you will explore the concepts of inheritance and polymorphism in PHP. You will be presented with a scenario involving multiple classes with an inheritance relationship. Your task is to create these classes with appropriate properties and methods. Additionally, you should demonstrate polymorphism by overriding methods in child classes.
+
+Assignment Requirements:
+
+Choose a Scenario: Select a scenario that involves multiple classes with an inheritance relationship. For example, you can create classes for "Vehicle," "Car," and "Motorcycle." The "Vehicle" class can be the base class, and "Car" and "Motorcycle" can be derived from it.
+
+Define Base Class: Create a PHP class that serves as the base class (e.g., "Vehicle"). Define properties and methods in this class that are common to all vehicles. For example, properties like "brand" and "model" and methods like "startEngine()" and "stopEngine()."
+
+Create Child Classes: Create PHP classes that inherit from the base class (e.g., "Car" and "Motorcycle"). These child classes should inherit properties and methods from the base class and may also have additional properties and methods specific to the child class. For instance, the "Car" class can have a property "numDoors" and the "Motorcycle" class can have a property "numWheels."
+
+Polymorphism with Method Overrides: Implement method overrides in the child classes. Choose a method from the base class to override in each child class. For example, you can override the "startEngine()" method in the "Car" class to display a specific message.
+
+Instantiate Objects: Create objects from the child classes (e.g., instantiate a "Car" object and a "Motorcycle" object) and demonstrate polymorphism by calling the overridden methods on these objects.
+
+Provide a Scenario Explanation: In a text document (PDF or Word), explain the scenario you chose, the properties and methods of each class, the purpose of method overrides, and how polymorphism is demonstrated in your code.
+
+Submission:
+
+Submit your assignment in a ZIP file containing the following items:
+
+PHP files containing class definitions and object instantiation.
+A text document (PDF or Word) explaining the scenario, class structures, method overrides, and polymorphism.
+Example Submission (partial):
+
+PHP Class Definitions:
+
+
+<?php
+class Vehicle {
+    public $brand;
+    public $model;
+
+    public function __construct($brand, $model) {
+        $this->brand = $brand;
+        $this->model = $model;
+    }
+
+    public function startEngine() {
+        echo "Starting the engine of {$this->brand} {$this->model}\n";
+    }
+}
+
+class Car extends Vehicle {
+    public $numDoors;
+
+    public function __construct($brand, $model, $numDoors) {
+        parent::__construct($brand, $model);
+        $this->numDoors = $numDoors;
+    }
+
+    public function startEngine() {
+        echo "Starting the car's engine...\n";
+    }
+}
+
+class Motorcycle extends Vehicle {
+    public $numWheels;
+
+    public function __construct($brand, $model, $numWheels) {
+        parent::__construct($brand, $model);
+        $this->numWheels = $numWheels;
+    }
+
+    public function startEngine() {
+        echo "Starting the motorcycle's engine...\n";
+    }
+}
+?>
+
+
+Usage in index.php:
+
+
+<?php
+require_once 'Vehicle.php';
+
+// Create Car object
+$car = new Car('Toyota', 'Camry', 4);
+$car->startEngine(); // Calls the overridden startEngine() method
+
+// Create Motorcycle object
+$motorcycle = new Motorcycle('Honda', 'CBR 600RR', 2);
+$motorcycle->startEngine(); // Calls the overridden startEngine() method
+?>
+
+
+Explanation (AssignmentDescription.pdf):
+
+In this assignment, I chose a scenario involving the "Vehicle," "Car," and "Motorcycle" classes. The base class "Vehicle" has properties "brand" and "model," and the child classes "Car" and "Motorcycle" inherit from it. I demonstrated polymorphism by overriding the "startEngine()" method in both child classes.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of class definitions, including inheritance and method overrides.
+Proper instantiation and use of objects.
+Clarity and completeness of the explanation document.
+Effective demonstration of polymorphism through method overrides.

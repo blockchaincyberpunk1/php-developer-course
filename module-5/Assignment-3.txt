@@ -1,0 +1,68 @@
+Building a Contact Form
+
+Objective: To create a functional contact form using PHP for a website.
+
+Task:
+
+In this assignment, you will be tasked with building a contact form for a website. The contact form should allow users to send messages to a specified recipient. You will need to develop a PHP script that handles form submissions, validates user input, and sends an email notification.
+
+Instructions:
+
+Set Up Your Development Environment:
+
+Ensure that you have a working PHP development environment (as set up in previous assignments).
+Create the Contact Form:
+
+Design an HTML contact form that includes fields for the user to input their name, email address, subject, message, and possibly other relevant information.
+Implement form validation to ensure that the required fields are filled out correctly.
+Use HTML and CSS to style the form appropriately.
+Develop the PHP Script:
+
+Create a PHP script that handles the form submission.
+Validate the user's input, checking for proper email format and ensuring that all required fields are filled out.
+Implement error handling to provide clear feedback to users in case of validation errors.
+Sending Email:
+
+Utilize PHP's mail() function or a library like PHPMailer to send an email with the form data to a specified recipient (e.g., an email address).
+Include the user's name, email, subject, and message in the email body.
+Success Message:
+
+After successfully sending the email, display a confirmation message to the user on the web page.
+Optionally, you can also include a "Thank you" page or redirect the user to a different URL after submission.
+Testing:
+
+Test your contact form thoroughly by filling out the form with valid and invalid inputs.
+Ensure that the form validation and email sending functionalities work as expected.
+Submission:
+
+Submit the following for this assignment:
+
+The PHP script for handling the contact form.
+The HTML file containing the contact form.
+A brief document or email confirming the successful completion of the assignment.
+Example Submission (partial):
+
+Assignment3-Submission.zip:
+
+contact_form.php
+contact_form.html
+Report (report.txt):
+
+
+Assignment 3: Building a Contact Form
+
+- I have created a contact form using HTML and PHP.
+- The form includes fields for name, email, subject, and message, with proper validation.
+- PHP script "contact_form.php" handles form submission and sends emails using the PHP `mail()` function.
+- I have tested the form extensively and validated that it sends emails correctly.
+- Users receive a confirmation message after submitting the form.
+
+[Attach PHP and HTML files]
+Grading Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Successful implementation of the contact form with proper validation.
+Correct handling of form submissions and sending of emails.
+Clarity and completeness of the submission report.
+Inclusion of PHP and HTML files for the contact form.

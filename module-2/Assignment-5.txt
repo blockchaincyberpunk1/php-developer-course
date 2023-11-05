@@ -1,0 +1,62 @@
+PHP Quiz
+
+Objective: To assess understanding of PHP fundamentals.
+
+Task:
+
+In this assignment, you will complete a PHP quiz to test your knowledge of PHP syntax, variables, data types, control structures, functions, and error handling. The quiz consists of both multiple-choice and short-answer questions. Please answer each question to the best of your ability.
+
+Instructions:
+
+Multiple-Choice Questions:
+
+What does PHP stand for?
+a) Personal Home Page
+b) Preprocessor Hypertext
+c) PHP: Hypertext Preprocessor
+d) Private Hyperlink Page
+
+Which of the following is not a valid PHP variable name?
+a) $myVariable
+b) $_user_age
+c) 123variable
+d) $userAge
+
+How do you start a single-line comment in PHP?
+a) /* This is a comment */
+b) // This is a comment
+c) # This is a comment
+d) <!-- This is a comment -->
+
+Which PHP data type is used for storing a sequence of characters?
+a) integer
+b) float
+c) string
+d) boolean
+
+What is the correct syntax for a for loop in PHP?
+a) for ($i = 0; $i < 5; $i++)
+b) while ($i < 5)
+c) repeat ($i = 0; $i < 5)
+d) loop ($i = 0; $i < 5)
+
+Short-Answer Questions:
+
+Write a PHP code snippet that defines a variable $name and assigns it the value "John Doe."
+
+Explain the difference between == and === in PHP when comparing values.
+
+Write a PHP function called calculateArea that calculates and returns the area of a rectangle given its width and height as parameters.
+
+Submission:
+
+Please answer all the questions and submit your responses in a single document. Indicate the question number before each of your answers. You may use any text editor or word processing software to complete the assignment.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Accuracy of multiple-choice answers.
+Correctness and completeness of short-answer responses.
+Clarity and conciseness of explanations.
+Proper use of PHP syntax in code snippets.

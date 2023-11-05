@@ -1,0 +1,54 @@
+SQL Queries
+
+Objective: To practice writing SQL queries.
+
+Task:
+
+In this assignment, you will have the opportunity to strengthen your SQL query writing skills. Below are several SQL query challenges that you need to solve. Write SQL queries to retrieve the requested data based on the given scenarios. Each query should be submitted in a separate text file with a clear label for the query number. Use the "webappdb" database that you created in Assignment 2.
+
+Query 1: User Information
+Retrieve the usernames and email addresses of all users in the "Users" table.
+
+Query 2: Product List
+Retrieve the names and prices of all products available in the "Products" table.
+
+Query 3: Product Stock Check
+Retrieve the names and stock quantities of products that have a stock quantity less than 10.
+
+Query 4: User Orders
+Retrieve the usernames and order dates of users who have placed orders in the "Orders" table.
+
+Query 5: Total Sales
+Calculate and retrieve the total sales amount for all orders placed between January 1, 2023, and December 31, 2023, inclusive.
+
+Query 6: Order Details
+Retrieve the order ID, product name, and quantity for all orders in the "Orders" table. Include the username of the user who placed each order.
+
+Submission:
+
+Submit a text file for each SQL query (6 text files in total) with the query number and the SQL query itself clearly labeled. You can use any text editor or SQL tool to write and save your queries.
+
+Example Submission (partial):
+
+Query1.sql
+
+
+-- Query 1: User Information
+SELECT Username, Email FROM Users;
+
+
+Query2.sql
+
+
+-- Query 2: Product List
+SELECT Name, Price FROM Products;
+...
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Accuracy and correctness of the SQL queries.
+Proper formatting and organization of the SQL queries.
+Ability to retrieve the requested data as per the given scenarios.
+Clarity in labeling and submission of individual query files.

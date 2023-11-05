@@ -1,0 +1,62 @@
+API Integration (Optional)
+
+Objective: To integrate and interact with a RESTful API.
+
+Task:
+
+In this optional assignment, you have the opportunity to build a separate application that consumes the RESTful API created in Assignment 4. This assignment focuses on how to send HTTP requests to an API, handle responses, and utilize the API's functionality within your application.
+
+Instructions:
+
+Choose Your Application:
+
+You can create a new application for this assignment or extend one of your previous assignments.
+API Integration:
+
+Integrate the API you developed in Assignment 4 into your application.
+Implement features in your application that utilize the API's functionality. For example, if your API provides blog post retrieval, integrate it into a blog website to display posts fetched from the API.
+Ensure proper authentication and authorization if your API requires it.
+User Interface (UI):
+
+Create a user-friendly interface for your application. This may involve designing web pages, forms, or interactive components that interact with the API.
+Testing:
+
+Test your application thoroughly to ensure that API integration works as expected.
+Test different scenarios, such as creating new data through the API, updating existing data, and deleting data.
+Documentation:
+
+Provide documentation within your application or as a separate document that explains how users can interact with the integrated API features.
+Submission:
+
+Submit the following for this optional assignment:
+
+All PHP files and scripts related to your application.
+Documentation within your application or as a separate document explaining how users can use the integrated API features.
+Example Submission (partial):
+
+Assignment5-API-Integration-Submission.zip:
+
+index.php (Main application file)
+api_integration.js (JavaScript for API interaction)
+styles.css (CSS for styling the application)
+api_integration_documentation.txt (Documentation)
+Report (report.txt):
+
+
+Assignment 5: API Integration (Optional)
+
+- I have successfully integrated the RESTful API created in Assignment 4 into my application.
+- The application includes user-friendly interfaces for interacting with the API's functionality.
+- API integration has been thoroughly tested and functions as expected.
+- Documentation explaining how users can use the integrated API features is provided.
+
+[Attach PHP files, JavaScript, CSS, and documentation]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful integration of the RESTful API into the application.
+Proper implementation of features that utilize the API's functionality.
+User-friendly interface design.
+Thorough testing of API integration.
+Clear and helpful documentation for users.

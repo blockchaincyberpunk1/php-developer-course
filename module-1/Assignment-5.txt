@@ -1,0 +1,60 @@
+HTML and CSS Basics Quiz
+
+Objective: To assess understanding of HTML and CSS fundamentals.
+
+Instructions:
+
+This quiz is designed to test your knowledge of HTML and CSS basics. Please read each question carefully and select the correct answer for multiple-choice questions. For short-answer questions, provide concise and accurate responses.
+
+Section 1: Multiple Choice (2 points each)
+
+Which HTML tag is used to create a hyperlink?
+
+a) <link>
+b) <a>
+c) <h1>
+d) <p>
+What does CSS stand for?
+
+a) Computer Style Sheets
+b) Colorful Style Sheets
+c) Cascading Style Sheets
+d) Creative Style Sheets
+Which CSS property is used to change the text color of an element?
+
+a) background-color
+b) text-color
+c) font-color
+d) color
+In HTML, which tag is used to create an unordered list?
+
+a) <ul>
+b) <ol>
+c) <li>
+d) <ul>
+What is the correct way to comment out a block of CSS code?
+
+a) /* This is a comment */
+b) <!-- This is a comment -->
+c) // This is a comment
+d) # This is a comment
+Section 2: Short Answer (5 points each)
+
+Write the HTML code to create a simple webpage with a heading that says "My Web Page" and a paragraph of text that says "Welcome to my webpage."
+
+Write a CSS rule that sets the background color of all <p> elements to light blue.
+
+Explain the purpose of the HTML <div> element and how it is commonly used in web development.
+
+Submission Instructions:
+
+Provide your answers to the multiple-choice questions by selecting the letter corresponding to your choice (e.g., 1. b).
+For short-answer questions, write your responses directly below each question.
+Submit your completed quiz to the instructor by the specified deadline.
+Grading Criteria:
+
+Your quiz will be graded based on the following criteria:
+
+Correctness of answers to multiple-choice questions.
+Accuracy and completeness of short-answer responses.
+Adherence to submission instructions.

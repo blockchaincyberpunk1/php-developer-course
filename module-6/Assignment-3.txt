@@ -1,0 +1,63 @@
+Building a User Dashboard (Optional)
+
+Objective: To create a user dashboard within the CMS.
+
+Task:
+
+For this optional challenge, you will enhance the CMS developed in Assignments 1 and 2 by adding a user dashboard. The dashboard should provide users with a personalized experience, allowing them to access user-specific content or settings.
+
+Instructions:
+
+User Authentication:
+
+Ensure that your CMS has a robust user authentication system in place.
+Implement user registration and login functionality if not already done in previous assignments.
+User Dashboard:
+
+Create a dedicated user dashboard page accessible after user login.
+The dashboard should display user-specific information or options. This could include:
+A list of articles or content authored by the user.
+User profile information and settings (e.g., profile picture, contact details).
+User-specific preferences or customization options.
+Dashboard Navigation:
+
+Implement a user-friendly navigation menu or panel within the dashboard to allow users to easily switch between different dashboard sections.
+User Experience Enhancement:
+
+Focus on providing an intuitive and visually appealing user experience within the dashboard.
+Ensure that users can efficiently manage their content or settings.
+Testing:
+
+Thoroughly test the user dashboard to ensure that user-specific content and settings are correctly displayed and updated.
+Submission:
+
+Submit the following for this optional assignment:
+
+The PHP files and scripts for your user dashboard.
+A brief document or email confirming the successful completion of the user dashboard.
+Example Submission (partial):
+
+Assignment3-UserDashboard-Submission.zip:
+
+user_dashboard.php (user dashboard functionality)
+dashboard_navigation.php (dashboard navigation menu)
+updated_user_profile.php (enhanced user profile page)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 3: Building a User Dashboard (Optional)
+
+- I have successfully added a user dashboard to the CMS.
+- The dashboard displays user-specific content and settings.
+- Users can efficiently navigate and manage their content and preferences.
+
+[Attach PHP files]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful implementation of the user dashboard with user-specific content.
+User-friendly dashboard navigation and interface design.
+User experience enhancements.
+Effective testing to ensure correct functionality.

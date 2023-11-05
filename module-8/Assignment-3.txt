@@ -1,0 +1,77 @@
+Building a Comment System (Optional)
+
+Objective: To create a comment system with PHP and JavaScript.
+
+Task:
+
+In this optional assignment, you have the opportunity to extend your existing web application (CMS, blogging platform, or any other PHP-based project) by adding a robust comment system. A comment system allows users to interact with your content, providing valuable feedback and engagement.
+
+Instructions:
+
+Comment System Design:
+
+Plan the design and functionality of your comment system. Consider how users will add comments, edit them, and delete them. Think about user interactions and the user interface (UI) for displaying comments.
+Comment Database:
+
+Create the necessary database tables to store comments, associating each comment with a specific content item (e.g., blog post or article). Define a schema for comment data.
+Adding Comments:
+
+Implement a user-friendly form that allows users to add comments.
+Use AJAX to submit comments asynchronously to the server without refreshing the entire page.
+Validate user inputs and sanitize them to prevent security vulnerabilities.
+Displaying Comments:
+
+Develop a section within your application to display comments associated with each content item.
+Implement AJAX-based real-time updates to load new comments without requiring a page reload.
+Editing and Deleting Comments:
+
+Enable users to edit and delete their own comments.
+Implement a secure authentication mechanism to ensure that users can only edit/delete their comments.
+Styling and UI:
+
+Apply CSS styling to ensure that comments are displayed elegantly and are easy to read.
+Design an intuitive UI for interacting with comments.
+Testing:
+
+Thoroughly test your comment system for functionality and security.
+Verify that all user interactions work as expected.
+Documentation:
+
+Provide documentation within your application or as a separate document explaining how users can use the comment system.
+Include information on adding, editing, and deleting comments.
+Submission:
+
+Submit the following for this assignment:
+
+All PHP, HTML, CSS, and JavaScript files related to your application, including the new code for the comment system.
+
+Documentation within your application or as a separate document explaining how users can use the comment system.
+
+Example Submission (partial):
+
+Assignment3-CommentSystem-Submission.zip:
+
+index.php (Main application file)
+comment_system.js (JavaScript for the comment system)
+styles.css (CSS for styling the application)
+comment_system_documentation.txt (Documentation)
+Report (report.txt):
+
+
+Assignment 3: Building a Comment System (Optional)
+
+- I have successfully implemented a comment system for my web application.
+- Users can add, edit, and delete comments with AJAX for real-time updates.
+- The comment system is well-designed, secure, and user-friendly.
+- Thorough testing of the comment system has been performed, and it works as expected.
+- Documentation explaining how users can use the comment system is provided.
+
+[Attach PHP files, HTML, CSS, JavaScript, and documentation]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of a comment system with features like adding, editing, and deleting comments.
+User-friendly and responsive comment system with AJAX for real-time updates.
+Thorough testing and security considerations.
+Clear and helpful documentation for users.

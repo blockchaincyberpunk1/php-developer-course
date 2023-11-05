@@ -1,0 +1,72 @@
+Creating a Content Management System (CMS) - Part 1
+
+Objective: To begin building a basic Content Management System (CMS) using PHP.
+
+Task:
+
+In this assignment, you will start developing a PHP-based CMS that allows administrators to log in, create, and view content. The objective is to implement user authentication, content creation, and basic database interactions for storing content data.
+
+Instructions:
+
+Set Up Your Development Environment:
+
+Ensure that you have a working PHP development environment (as set up in previous assignments).
+Set up a MySQL database to store user and content data.
+User Authentication:
+
+Create a user authentication system that includes user registration, login, and logout functionalities.
+Administrators should have access to the CMS, so create an "admin" role or permission level.
+Database Schema:
+
+Design a database schema that includes tables for users and content.
+The "users" table should store user information, including username, email, and hashed passwords.
+The "content" table should store content items, including a title, body, publication date, and author (user ID).
+Content Management:
+
+Implement a user interface for administrators to create new content items.
+Develop a page that lists all content items with their titles, publication dates, and authors.
+Database Interactions:
+
+Use PHP and MySQL to interact with the database for user registration, login, and content management.
+Ensure that only authenticated administrators can access the content management features.
+User Experience:
+
+Design a user-friendly interface for the CMS with proper navigation, forms, and error handling.
+Implement user-friendly URLs for content items (e.g., "cms/view/1" for the first content item).
+Submission:
+
+Submit the following for this assignment:
+
+The PHP files and scripts for your CMS (Part 1).
+A brief document or email confirming the successful completion of Part 1.
+Example Submission (partial):
+
+Assignment1-Part1-Submission.zip:
+
+index.php (list of content items)
+create_content.php (create a new content item)
+user_auth.php (user authentication)
+database.sql (SQL schema for users and content)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 1: Creating a Content Management System (CMS) - Part 1
+
+- I have created a basic CMS using PHP.
+- The CMS includes user authentication with registration, login, and logout.
+- There is a page to create new content items.
+- Content items are stored in a MySQL database.
+- The CMS lists content items with titles, publication dates, and authors.
+- Only authenticated administrators can access content management features.
+
+[Attach PHP files and SQL schema]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of user authentication.
+Correct database schema design and interactions for users and content.
+Proper functionality for content creation and listing.
+User experience and user interface design.
+Clarity and completeness of the submission report.

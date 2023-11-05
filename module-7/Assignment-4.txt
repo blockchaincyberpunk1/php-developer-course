@@ -1,0 +1,62 @@
+API Development (Optional)
+
+Objective: To explore API development using PHP.
+
+Task:
+
+For this optional assignment, you have the opportunity to dive into API (Application Programming Interface) development using PHP. APIs allow applications to communicate and share data with other applications or services. You will create a simple RESTful API that defines endpoints for retrieving and manipulating data within your application.
+
+Instructions:
+
+Choose Your Application:
+
+Select an existing web application or part of your previous assignments that you'd like to expose via an API. This could be a blogging platform, a content management system, or any other project.
+Design Your API:
+
+Define the endpoints for your API. For example:
+/api/posts: Retrieve a list of blog posts.
+/api/posts/{id}: Retrieve a specific post by its ID.
+/api/posts/create: Create a new blog post.
+/api/posts/{id}/update: Update an existing post.
+/api/posts/{id}/delete: Delete a post by its ID.
+Implement the API:
+
+Write PHP scripts that handle incoming API requests and return appropriate responses.
+Ensure that your API follows RESTful principles and uses HTTP methods (GET, POST, PUT, DELETE) appropriately for each endpoint.
+Implement data validation and error handling in your API.
+Testing:
+
+Test your API endpoints using API testing tools (e.g., Postman) or by making HTTP requests from your web browser or a code editor.
+Documentation:
+
+Provide documentation for your API, including the available endpoints, required parameters, and expected responses. You can use tools like Swagger or simply create a clear text document.
+Submission:
+
+Submit the following for this optional assignment:
+
+PHP files and scripts related to your API development.
+Documentation for your API, explaining the available endpoints, their purposes, required parameters, and expected responses.
+Example Submission (partial):
+
+Assignment4-API-Submission.zip:
+
+api.php (PHP scripts for API endpoints)
+api_documentation.txt (API documentation)
+Report (report.txt):
+
+
+Assignment 4: API Development (Optional)
+
+- I have successfully developed a RESTful API using PHP.
+- The API exposes endpoints for retrieving, creating, updating, and deleting data.
+- API documentation is included, explaining each endpoint's purpose and usage.
+
+[Attach PHP files and documentation]
+Grading Criteria:
+
+This optional assignment will be evaluated based on the following criteria:
+
+Successful implementation of a RESTful API using PHP.
+Proper design and functionality of API endpoints.
+Effective data validation and error handling in the API.
+Documentation that clearly explains the API endpoints, parameters, and responses.

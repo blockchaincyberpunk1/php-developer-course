@@ -1,0 +1,58 @@
+Data Validation and Sanitization
+
+Objective: To teach data validation and input sanitization techniques.
+
+Task:
+
+In this assignment, you will continue to improve your content management system (CMS) or blogging platform by focusing on data validation and input sanitization. The goal is to protect your application from common security vulnerabilities such as SQL injection and cross-site scripting (XSS) by validating and sanitizing user inputs.
+
+Instructions:
+
+Data Validation:
+
+Implement data validation routines for all user inputs, including form submissions, user-generated content (e.g., blog posts), and search queries.
+Validate inputs to ensure they meet specific criteria (e.g., email addresses should have a valid format, numbers should be within a specified range).
+Use PHP functions and regular expressions for data validation.
+Input Sanitization:
+
+Implement input sanitization for user-generated content that will be displayed on your website. This includes blog post content, comments, and user profiles.
+Utilize PHP functions or libraries (e.g., htmlspecialchars) to sanitize user inputs and prevent XSS attacks.
+Error Handling:
+
+Develop a robust error-handling mechanism to gracefully handle validation and sanitization errors.
+Display informative error messages to users when their inputs are invalid.
+Testing:
+
+Thoroughly test your CMS or blogging platform to ensure that data validation and sanitization work effectively.
+Attempt to inject malicious code or submit invalid data to check if your security measures prevent vulnerabilities.
+Submission:
+
+Submit the following for this assignment:
+
+PHP files and scripts related to data validation and input sanitization.
+A brief document or email confirming the successful implementation of data validation and input sanitization.
+Example Submission (partial):
+
+Assignment2-DataValidationSanitization-Submission.zip:
+
+data_validation.php (data validation routines)
+input_sanitization.php (input sanitization logic)
+error_handling.php (error handling mechanisms)
+README.txt (documentation)
+Report (report.txt):
+
+
+Assignment 2: Data Validation and Sanitization
+
+- I have implemented data validation and input sanitization for user inputs.
+- All user-generated content is properly sanitized to prevent XSS attacks.
+- Error handling is in place to handle validation and sanitization errors gracefully.
+
+[Attach PHP files]
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+Successful implementation of data validation and input sanitization for all relevant inputs.
+Effective error handling to provide user-friendly error messages.
+Thorough testing to ensure that data validation and sanitization effectively prevent security vulnerabilities.

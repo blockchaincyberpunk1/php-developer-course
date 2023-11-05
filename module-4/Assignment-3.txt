@@ -1,0 +1,85 @@
+Database Integration
+
+Objective: To integrate PHP with a MySQL database for data retrieval.
+
+Task:
+
+In this assignment, you will practice integrating PHP with a MySQL database to retrieve data from tables. You will be provided with a MySQL database schema and a PHP script template. Your task is to write PHP code that connects to the database, retrieves data from specified tables (e.g., "products" or "users"), and displays it on a web page. This assignment reinforces your skills in PHP and MySQL integration.
+
+Assignment Requirements:
+
+Database Setup: You will be provided with a MySQL database schema, including tables and sample data. Your task is to ensure that you have access to this database. You can use either a local MySQL server or an online MySQL service.
+
+PHP Script: You will receive a PHP script template that contains placeholders for database connection parameters and a sample query. Your goal is to complete the PHP script to connect to the database and retrieve data.
+
+Data Retrieval: Modify the PHP script to execute a MySQL query to retrieve data from one of the provided tables. For example, you can retrieve a list of products, users, or any other relevant data.
+
+Display Data: Once you have retrieved the data, format it and display it on a web page. Use HTML and PHP to create a presentable output. For instance, you can display a table with rows and columns containing the retrieved data.
+
+Document Your Code: Add comments to your PHP script to explain the purpose of each section of code and any necessary steps for setting up the database connection.
+
+Assignment Deliverables:
+
+Submit your assignment as a ZIP file containing the following items:
+
+The completed PHP script file (e.g., display_data.php) that connects to the database, retrieves data, and displays it on a web page.
+
+A screenshot or a link to the web page displaying the retrieved data.
+
+Example Submission (partial):
+
+PHP Script (display_data.php):
+
+
+<?php
+// Database connection parameters
+$hostname = 'your_db_host';
+$username = 'your_db_username';
+$password = 'your_db_password';
+$database = 'your_db_name';
+
+// Connect to the database
+$mysqli = new mysqli($hostname, $username, $password, $database);
+
+// Check for connection errors
+if ($mysqli->connect_error) {
+    die('Connect Error (' . $mysqli->connect_errno . ') ' . $mysqli->connect_error);
+}
+
+// SQL query to retrieve data from the 'products' table
+$query = "SELECT * FROM products";
+
+// Execute the query
+$result = $mysqli->query($query);
+
+// Display retrieved data in an HTML table
+echo '<table>';
+echo '<tr><th>Product ID</th><th>Product Name</th><th>Price</th></tr>';
+
+while ($row = $result->fetch_assoc()) {
+    echo '<tr>';
+    echo '<td>' . $row['product_id'] . '</td>';
+    echo '<td>' . $row['product_name'] . '</td>';
+    echo '<td>' . $row['price'] . '</td>';
+    echo '</tr>';
+}
+
+echo '</table>';
+
+// Close the database connection
+$mysqli->close();
+?>
+
+
+Screenshot (displayed_data.png):
+
+Displayed Data
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the PHP script for connecting to the database and retrieving data.
+Proper display of the retrieved data on a web page.
+Clarity of code comments and explanations.
+Effective handling of any database connection errors.

@@ -1,0 +1,71 @@
+Creating a User Registration System
+
+Objective: To build a user registration system using PHP and MySQL.
+
+Task:
+
+In this assignment, you will create a simple user registration system using PHP and MySQL. This system will allow users to create accounts with unique usernames and passwords. You should also implement basic input validation and error handling to ensure data integrity and security.
+
+Instructions:
+
+Set Up Your Development Environment:
+
+Ensure that you have a working PHP development environment set up (as you did in Assignment 1).
+Create a MySQL Database:
+
+Use a MySQL client (e.g., phpMyAdmin) to create a new database for your registration system.
+Design a table named "users" with the following columns:
+id (auto-increment, primary key)
+username (varchar, unique)
+password (varchar)
+created_at (timestamp)
+Create Registration Files:
+
+Develop PHP files for user registration with the following functionality:
+A registration form that collects the user's username and password.
+PHP code to process the form data, validate inputs, and securely store the user's information in the database.
+Implement password hashing for storing passwords securely.
+Implement Validation and Error Handling:
+
+Include validation checks to ensure that usernames are unique and passwords meet security requirements (e.g., minimum length).
+Display appropriate error messages to users if registration fails.
+Test Your Registration System:
+
+Test your registration system thoroughly by registering multiple users.
+Verify that user data is correctly stored in the database.
+Submission:
+
+Submit the following for this assignment:
+
+PHP files containing your registration system code.
+SQL script to create the "users" table.
+A brief document or email confirming the successful completion of the assignment.
+Example Submission (partial):
+
+Assignment2-Submission.zip:
+
+registration.php
+process_registration.php
+create_users_table.sql
+Report (report.txt):
+
+
+Assignment 2: Creating a User Registration System
+
+- I have created a user registration system using PHP and MySQL.
+- The system includes a registration form, PHP scripts for processing user data, and validation checks.
+- User data is stored securely in the MySQL database with password hashing.
+- The SQL script "create_users_table.sql" is included to create the necessary database table.
+- I have tested the system by registering multiple users successfully.
+- The system also displays appropriate error messages when registration fails.
+
+[Attach PHP files and SQL script]
+Grading Criteria:
+
+Your assignment will be evaluated based on the following criteria:
+
+Successful implementation of the user registration system.
+Correct database table creation and data storage.
+Proper input validation and error handling.
+Clarity and completeness of the submission report.
+Inclusion of PHP files and the SQL script for table creation.

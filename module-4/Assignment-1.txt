@@ -1,0 +1,89 @@
+Creating a Class and Object
+
+Objective: To practice defining classes and creating objects in PHP.
+
+Task:
+
+In this assignment, you will create a PHP class representing a real-world entity of your choice, such as a "Person," "Car," or "Book." You will define properties (attributes) and methods for the class. Then, you will instantiate objects from these classes and perform actions using the methods.
+
+Assignment Requirements:
+
+Choose a Real-World Entity: Select a real-world entity that you want to represent using a PHP class. For example, you can choose to create a "Person" class.
+
+Define Class Properties: Define appropriate properties (attributes) for your class. These properties should represent characteristics of the real-world entity. For example, a "Person" class might have properties like "name," "age," and "email."
+
+Create Class Methods: Define methods (functions) within your class that allow you to perform actions related to the entity. For example, the "Person" class might have methods like "introduce()" to introduce the person and "sendEmail()" to send an email.
+
+Instantiate Objects: Create at least two objects from your class. Initialize these objects with different values for the properties. For example, you can create two instances of the "Person" class with different names and ages.
+
+Use Class Methods: Invoke the methods you defined for your objects. For instance, if you created a "Car" class, you might call the "startEngine()" and "stopEngine()" methods on your car objects.
+
+Demonstrate Object Interactions: Show how objects interact with each other if applicable. For instance, if you created a "Library" class and a "Book" class, demonstrate how a library object can add books to its collection.
+
+Submission:
+
+Submit your assignment in a ZIP file containing the following items:
+
+A PHP file (or files) containing the class definition(s) and object instantiation.
+A text document (PDF or Word) explaining your choice of the real-world entity, the properties you defined, the methods you implemented, and the actions you demonstrated using the objects.
+Example Submission (partial):
+
+PHP Class Definition (Person.php):
+
+
+<?php
+class Person {
+    // Properties
+    public $name;
+    public $age;
+    public $email;
+
+    // Constructor
+    public function __construct($name, $age, $email) {
+        $this->name = $name;
+        $this->age = $age;
+        $this->email = $email;
+    }
+
+    // Methods
+    public function introduce() {
+        echo "Hello, my name is {$this->name}, and I am {$this->age} years old.\n";
+    }
+
+    public function sendEmail($message) {
+        echo "Sending an email to {$this->email}: {$message}\n";
+    }
+}
+?>
+
+
+Usage in index.php:
+
+
+<?php
+require_once 'Person.php';
+
+// Create Person objects
+$person1 = new Person('Alice', 30, 'alice@example.com');
+$person2 = new Person('Bob', 25, 'bob@example.com');
+
+// Use class methods
+$person1->introduce();
+$person2->introduce();
+
+$person1->sendEmail('Hello, Bob. How are you?');
+?>
+
+
+Explanation (AssignmentDescription.pdf):
+
+In this assignment, I chose to create a "Person" class with properties for name, age, and email. The class has methods for introducing the person and sending emails. I instantiated two "Person" objects, one for Alice and one for Bob, and demonstrated the use of class methods.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the class definition, including properties and methods.
+Proper instantiation and use of objects.
+Clarity and completeness of the explanation document.
+Adherence to good object-oriented programming practices in PHP.

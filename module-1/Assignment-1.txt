@@ -1,0 +1,57 @@
+Basic HTML Page Creation
+
+Objective: To practice creating a simple HTML web page.
+
+Task: In this assignment, you will create a basic HTML web page using a text editor. The purpose of this assignment is to familiarize you with the fundamental structure of HTML and introduce you to basic HTML elements and styling using CSS.
+
+Instructions:
+
+Create a New HTML Document:
+
+Open your preferred text editor (e.g., Notepad, Visual Studio Code, Sublime Text).
+Create a new file and save it with the .html extension (e.g., index.html).
+HTML Structure:
+
+Begin by defining the basic structure of an HTML document using the <!DOCTYPE html> declaration.
+Create the HTML <html> element that encloses the entire page.
+Inside the <html> element, include the <head> and <body> elements.
+Page Title:
+
+Within the <head> section, set the title of your web page using the <title> element. Choose a title relevant to your page content.
+Heading and Content:
+
+Inside the <body> section, add an <h1> element with a title for your web page (e.g., "My First Web Page").
+Include several paragraphs of text using the <p> element. You can write about any topic you like.
+Lists:
+
+Create an unordered list (<ul>) with at least three list items (<li>). This can be a list of your favorite hobbies, movies, or any topic you prefer.
+Additionally, create an ordered list (<ol>) with at least three list items.
+Links:
+
+Insert a hyperlink using the <a> element. Link to a website of your choice (e.g., your favorite blog, a news website).
+Make sure the link opens in a new tab or window using the target="_blank" attribute.
+Images:
+
+Include an image on your web page using the <img> element. You can use any image you have or find one online.
+Use the src attribute to specify the image file's path and the alt attribute to provide alternative text for accessibility.
+CSS Styling:
+
+Add inline CSS styles to at least two elements on your web page (e.g., change text color, font size, or background color).
+Additionally, include an internal CSS <style> block within the <head> section to apply styling to specific HTML elements.
+View in Browser:
+
+Open your HTML file in a web browser to ensure that it displays correctly.
+Submission:
+
+Save your HTML file after making any final adjustments.
+Submit the HTML file you created.
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correct HTML structure, including the use of essential HTML elements.
+Inclusion of a title and relevant content.
+Properly formatted lists, links, and images.
+Use of inline and internal CSS for styling.
+Accuracy of the displayed web page in the browser.
+Properly named and submitted HTML file with the .html extension.

@@ -1,0 +1,63 @@
+Contributing to Open-Source PHP Projects
+
+Objective: To contribute to the PHP community by working on open-source projects.
+
+Task:
+
+In this assignment, you will have the opportunity to actively participate in the PHP open-source community by contributing to a PHP project of your choice. Open-source contributions help you gain practical experience, collaborate with other developers, and give back to the community.
+
+Instructions:
+
+Select a PHP Project:
+
+Choose an open-source PHP project that aligns with your interests or skills. You can explore platforms like GitHub, GitLab, or Bitbucket to find PHP projects.
+Fork the Repository:
+
+Fork the repository of the chosen PHP project on a version control platform like GitHub. This creates a copy of the project under your account.
+Review Project Documentation:
+
+Familiarize yourself with the project's documentation, including the README file, contributing guidelines, and coding standards.
+Identify an Issue:
+
+Browse the project's issue tracker to find an issue that you would like to work on. It can be a bug, a feature request, or an improvement task.
+Contribute:
+
+Work on the issue you selected. Depending on the project's guidelines, your contributions can include:
+Bug fixes: Identifying and fixing code issues.
+Feature additions: Implementing new features or enhancements.
+Documentation improvements: Enhancing project documentation for better clarity.
+Follow Coding Standards:
+
+Ensure that your code contributions adhere to the project's coding standards and style guide.
+Submit a Pull Request:
+
+Create a pull request (PR) to submit your changes to the original project repository. Follow the project's PR template and guidelines when creating the PR.
+Participate in Discussion:
+
+Engage with the project maintainers and other contributors in discussions related to your contribution. Be prepared to make revisions or updates based on feedback.
+Provide Evidence:
+
+As part of your submission, provide evidence of your contributions. This can include links to your PR(s), screenshots, or excerpts from project discussions.
+Submission:
+
+Submit the following for this assignment:
+
+A document (text file or PDF) containing the following information:
+The name and URL of the open-source PHP project you contributed to.
+A description of the issue you worked on.
+Details of your contributions and any feedback or discussion related to your contribution.
+Evidence of your contributions, such as links to PR(s) or screenshots.
+Example Submission:
+
+Assignment3-OpenSourceContribution-Submission.zip:
+
+ContributionReport.pdf
+Grading Criteria:
+
+This assignment will be evaluated based on the following criteria:
+
+The choice of an open-source PHP project for contributions.
+The quality and significance of contributions made.
+Adherence to project guidelines, coding standards, and style.
+Participation in discussions and responsiveness to feedback from project maintainers or other contributors.
+Evidence of contributions provided in the submission.

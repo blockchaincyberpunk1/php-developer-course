@@ -1,0 +1,48 @@
+Variables and Data Types
+
+Objective: To reinforce understanding of PHP variables and data types.
+
+Task:
+
+In this assignment, you will practice using PHP variables and data types to solve various scenarios. Each scenario represents a specific problem that you need to solve by writing PHP scripts.
+
+Instructions:
+
+Create a separate PHP file for each scenario. Name the PHP files appropriately based on the scenario.
+
+Write PHP scripts to solve each scenario using appropriate variables and data types. Ensure that your code is well-documented with comments to explain each step.
+
+Test your PHP scripts to make sure they provide the correct solutions for each scenario.
+
+Submit the PHP files for each scenario as separate attachments.
+
+Scenarios:
+
+Area of a Rectangle:
+Create a PHP script that calculates and displays the area of a rectangle. You should define variables for the length and width of the rectangle and use them to calculate the area.
+
+Temperature Conversion:
+Write a PHP script that converts a temperature from Celsius to Fahrenheit. Allow the user to input the temperature in Celsius, and then calculate and display the equivalent temperature in Fahrenheit.
+
+Simple Interest Calculator:
+Develop a PHP script that calculates the simple interest on a loan. Ask the user to input the principal amount, interest rate, and time period in years. Calculate and display the total amount to be paid, including interest.
+
+String Manipulation:
+Create a PHP script that takes a user's full name as input and then separates it into first name, middle name (if present), and last name. Display these names separately.
+
+BMI Calculator:
+Write a PHP script that calculates a person's Body Mass Index (BMI). Prompt the user to input their weight in kilograms and height in meters. Calculate and display the BMI along with an appropriate message indicating whether the person is underweight, normal, overweight, or obese.
+
+Submission Instructions:
+
+Create separate PHP files for each scenario and name them accordingly.
+
+Submit all the PHP files for the scenarios as separate attachments.
+
+Grading Criteria:
+
+Your assignment will be graded based on the following criteria:
+
+Correctness of the PHP scripts in solving each scenario.
+Proper use of variables and data types.
+Clarity and completeness of comments explaining the code.
